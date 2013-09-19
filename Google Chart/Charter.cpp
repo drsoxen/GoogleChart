@@ -21,7 +21,7 @@ size_t curl_write(void *ptr, size_t size, size_t nmemb, FILE *stream) {
 
 string GoogleChart::GetChart()
 {
-  //printf("%s",BuildUrl().c_str());
+  printf("%s",BuildUrl().c_str());
   
   std::string dir;
   
@@ -103,6 +103,9 @@ string GoogleChart::BuildUrl()
   }
   
   char buff[512];
+  
+  //set automatic sizing
+  CurrentUrl.append("&chbh=a,0,0");
   
   //make size
   sprintf(buff, "&chs=%dx%d", m_width, m_height);
