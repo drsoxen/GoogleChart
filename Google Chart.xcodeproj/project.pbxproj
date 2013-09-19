@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C29B4517EB91B100F342CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C29B4417EB91B100F342CF /* main.cpp */; };
+		83C29B5B17EB921E00F342CF /* Charter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C29B5917EB921E00F342CF /* Charter.cpp */; };
+		83C29B6217EB980D00F342CF /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C29B6117EB980D00F342CF /* libcurl.4.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83C29B3F17EB91B000F342CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83C29B4117EB91B100F342CF /* Google Chart */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google Chart"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C29B4417EB91B100F342CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		83C29B4E17EB921700F342CF /* curl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		83C29B4F17EB921700F342CF /* curlbuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		83C29B5017EB921700F342CF /* curlrules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		83C29B5117EB921700F342CF /* curlver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		83C29B5217EB921700F342CF /* easy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		83C29B5317EB921700F342CF /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		83C29B5417EB921700F342CF /* mprintf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		83C29B5517EB921700F342CF /* multi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		83C29B5617EB921700F342CF /* stdcheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		83C29B5717EB921700F342CF /* typecheck-gcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		83C29B5817EB921700F342CF /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		83C29B5917EB921E00F342CF /* Charter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Charter.cpp; sourceTree = "<group>"; };
+		83C29B5A17EB921E00F342CF /* Charter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charter.h; sourceTree = "<group>"; };
+		83C29B5D17EB92E400F342CF /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		83C29B6117EB980D00F342CF /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = usr/lib/libcurl.4.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C29B3E17EB91B000F342CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C29B6217EB980D00F342CF /* libcurl.4.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C29B3817EB91B000F342CF = {
+			isa = PBXGroup;
+			children = (
+				83C29B6117EB980D00F342CF /* libcurl.4.dylib */,
+				83C29B4317EB91B100F342CF /* Google Chart */,
+				83C29B4217EB91B100F342CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C29B4217EB91B100F342CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C29B4117EB91B100F342CF /* Google Chart */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C29B4317EB91B100F342CF /* Google Chart */ = {
+			isa = PBXGroup;
+			children = (
+				83C29B4D17EB921700F342CF /* curl */,
+				83C29B5D17EB92E400F342CF /* Singleton.h */,
+				83C29B5917EB921E00F342CF /* Charter.cpp */,
+				83C29B5A17EB921E00F342CF /* Charter.h */,
+				83C29B4417EB91B100F342CF /* main.cpp */,
+			);
+			path = "Google Chart";
+			sourceTree = "<group>";
+		};
+		83C29B4D17EB921700F342CF /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				83C29B4E17EB921700F342CF /* curl.h */,
+				83C29B4F17EB921700F342CF /* curlbuild.h */,
+				83C29B5017EB921700F342CF /* curlrules.h */,
+				83C29B5117EB921700F342CF /* curlver.h */,
+				83C29B5217EB921700F342CF /* easy.h */,
+				83C29B5317EB921700F342CF /* libcurl.a */,
+				83C29B5417EB921700F342CF /* mprintf.h */,
+				83C29B5517EB921700F342CF /* multi.h */,
+				83C29B5617EB921700F342CF /* stdcheaders.h */,
+				83C29B5717EB921700F342CF /* typecheck-gcc.h */,
+				83C29B5817EB921700F342CF /* types.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C29B4017EB91B000F342CF /* Google Chart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C29B4A17EB91B100F342CF /* Build configuration list for PBXNativeTarget "Google Chart" */;
+			buildPhases = (
+				83C29B3D17EB91B000F342CF /* Sources */,
+				83C29B3E17EB91B000F342CF /* Frameworks */,
+				83C29B3F17EB91B000F342CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Chart";
+			productName = "Google Chart";
+			productReference = 83C29B4117EB91B100F342CF /* Google Chart */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C29B3917EB91B000F342CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chris Ziraldo";
+			};
+			buildConfigurationList = 83C29B3C17EB91B000F342CF /* Build configuration list for PBXProject "Google Chart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83C29B3817EB91B000F342CF;
+			productRefGroup = 83C29B4217EB91B100F342CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C29B4017EB91B000F342CF /* Google Chart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C29B3D17EB91B000F342CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C29B4517EB91B100F342CF /* main.cpp in Sources */,
+				83C29B5B17EB921E00F342CF /* Charter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83C29B4817EB91B100F342CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83C29B4917EB91B100F342CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83C29B4B17EB91B100F342CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chris/Desktop/Google\\ Chart/Google\\ Chart/curl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		83C29B4C17EB91B100F342CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chris/Desktop/Google\\ Chart/Google\\ Chart/curl",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C29B3C17EB91B000F342CF /* Build configuration list for PBXProject "Google Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C29B4817EB91B100F342CF /* Debug */,
+				83C29B4917EB91B100F342CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C29B4A17EB91B100F342CF /* Build configuration list for PBXNativeTarget "Google Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C29B4B17EB91B100F342CF /* Debug */,
+				83C29B4C17EB91B100F342CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C29B3917EB91B000F342CF /* Project object */;
+}
